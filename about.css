@@ -1,0 +1,347 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+body{
+    background-color: #e4e4e4;
+}
+
+.btn{
+    color: white;
+    padding: 7px 27px;
+    background-color: rgb(4, 140, 24);
+    font-size: 30px;
+    text-decoration: none;
+    background: linear-gradient(to left, green 50%, orange 50%) right;
+    background-size: 200% 100%;
+    transition: .5s ease-out;
+  
+}
+.btn:hover{
+    background-position: left;
+    
+    
+}
+
+
+
+#navbar{ display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 50px;
+    background-color: #e4e4e4;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+   z-index: 9;
+    transition: top 0.3s;
+    
+}
+
+
+
+#navbar .logo1{
+    text-align: center;
+    width: 300px;
+    height: 100%;
+   
+    background-image: url(/jpg/logo2.png);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    margin-left: 30px;
+    
+}
+
+
+#navbar .logo1 h1 {
+    margin-left: 30px;
+    font-size: 35px;
+    color: orange;
+    padding: 6px 12px;
+    
+    margin-left: -85px;
+    
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    
+    list-style: none;
+    
+    
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+   padding: 5px 25px;
+    font-size: 17px;
+    margin: 15px;
+    background-color: rgb(83, 173, 4);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.menu a:hover{
+    background-color: orange;
+}
+
+
+.menu .homebtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-size: 17px;
+   
+}
+
+
+
+
+
+.bigtext{
+   
+    width: 1300px;
+    height: 700px;
+    background-image: url(/jpg/aboutbig.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    margin: auto;
+   
+
+    
+} 
+
+.abouttext{
+    width: 900px;
+    height: 550px;
+    background-color: #f7dcbe;
+    top: 500px;
+    left: 0;
+    right: 0; 
+    margin: auto;
+   position: absolute;
+   text-align: center;
+   
+}
+
+
+.abouttext h1{
+    font-size: 81px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow: 2px 2px  2px black;
+}
+
+.abouttext span{
+    color: orange;
+}
+
+
+.abouttext p{
+    font-size: 20px;
+    margin-top: 80px;
+    line-height: 25px;
+
+}
+
+
+.buton{
+    margin-top: 80px;
+}
+
+.buton a{
+    
+}
+
+
+
+
+
+
+
+
+
+.logo{
+    width: 190px;
+    height: 235px;
+    background-color: #f7dcbe;
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    border-top: solid 2px black;
+}
+.logo img{
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+
+.foot{
+    margin-top: 50px;
+    width: auto;
+    height: 235px;
+    margin-top: 500px;
+    background-color: aqua;
+   
+}
+
+#foot .logo h3{
+    
+    font-size: 20px;
+    margin-left: 30px;
+    text-shadow: 1px 1px  1px black;
+}
+
+
+
+#foot{display: flex;
+   
+    width: 100%;
+    height: 235px;
+    background-color: #f20000;
+    text-align: center;
+    align-items: center;
+  
+
+}
+#foot h2{
+    margin-top: 25px;
+    font-size: 17px;
+}
+#foot a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    
+}
+
+
+
+
+#foot .icons{
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: #f7dcbe;
+ width: 180px;
+ height: 30px;
+display: flex;
+justify-content: space-around;
+text-align: center;
+align-items: center;
+gap: 5px;
+
+
+}
+
+#foot .icons a{
+    font-size: 35px;
+    transition: .1s ease-out;
+    
+    
+}
+
+#foot .icons a:hover{
+    font-size: 38px;
+  
+    
+}
+
+
+
+#foot .icons .fb{
+    color: rgb(68, 68, 167);
+    
+}
+#foot .icons .tw{
+    color: rgb(100, 200, 240);
+    
+}
+#foot .icons .in{
+    position: absolute;
+    color: rgb(150, 81, 224);
+}
+
+
+
+#foot .About{
+width: 33.3%;
+height: 235px;
+background-color: #f7dcbe;
+border-top: solid 2px black;
+}
+
+#foot .About ul{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+font-size: 20px;
+list-style-type: none;
+}
+/*nu merge color*/
+
+ .About a:hover, .Links a:hover{
+
+    background-color: #e3caad;
+       padding: 3px 10px ;
+      
+      color: white;
+  }
+
+
+
+
+#foot .Links{
+
+    width: 33.3%;
+    height: 235px;
+    background-color: #f7dcbe;
+    border-top: solid 2px black;
+    }
+ #foot .Links ul{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 20px;
+        list-style-type: none;
+        
+        }
+
+
+    
+
+    #foot .Contact{
+
+        width: 33.3%;
+        height: 235px;
+        background-color: #f7dcbe;
+        border-top: solid 2px black;
+        }
+
+        #foot .Contact ul{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 17px;
+            list-style-type: none;
+            }
+
+            #foot .Contact h3{
+                font-size: 16px;
+            }
+
+

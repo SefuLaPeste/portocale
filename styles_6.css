@@ -1,0 +1,328 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+
+
+#sase{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-color: #ead3c0;
+}
+
+#sase .sus{
+    width: 100%;
+    height: 200px;
+    background-color: #b32828;
+    background-color: #e4e4e4;
+    
+}
+
+#sase .poze{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 30px;
+    width: 100%;
+    height: 600px;
+    padding: 100px;
+    z-index: 3;
+    
+    position: absolute;
+    
+}
+
+#sase .poze .p1{
+    width: 25%;
+    height: 100%;
+    margin-top: -170px;
+    background-color: cyan;
+    background-image: url(https://sefulapeste.github.io/portocale/jpg/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 10px 10px #4a4a4a;
+}
+
+#sase .poze .p2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(237, 125, 125);
+    background-image: url(https://sefulapeste.github.io/portocale/jpg/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 10px 10px #575656;
+}
+
+#sase .poze .p3{
+    width: 25%;
+    height: 100%;
+    margin-top: -170px;
+    background-color: rgb(233, 230, 157);
+    background-image: url(https://sefulapeste.github.io/portocale/jpg/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 10px 10px #575656;
+}
+
+#sase .poze .p4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(76, 118, 80);
+    background-image: url(https://sefulapeste.github.io/portocale/jpg/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 10px 10px #575656;
+}
+
+
+.mail{display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 400px;
+  
+}
+
+ #sase .mail .eat{
+
+    font-size: 60px;
+margin-bottom: 00px;
+background-color: #ead3c0;
+text-shadow: 2px 2px  2px black;
+
+}
+.eat span{
+    color: orange;
+}
+
+#sase .mail .form{
+    background-color: #ead3c0;
+     height: 100px;
+     width: 100%;
+   display: flex;
+     flex-flow: row-reverse;
+     justify-content: center;
+     align-items: center;
+     border-color: #f20000;
+     margin-top: 100px;
+ }
+
+#sase .sub{
+   
+    padding: 10px;
+     color: rgb(255, 255, 255);
+      font-size: 22px;
+      border-radius: 0px 15px 15px 0px ;
+    background-color: green;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 7px rgb(151, 159, 151);
+    
+      
+ 
+ }
+
+
+#sase .mail .inp{
+    height: 39px;
+    width: 400px;
+     padding: 22px;
+     
+     border-radius: 15px 0px 0px 15px ;
+     background-color: #ead3c0;
+     box-shadow: 5px 5px 7px rgb(151, 159, 151);
+     border: 3px solid green;
+  }
+
+
+
+  .logo{
+    width: 190px;
+    height: 235px;
+    background-color: #f7dcbe;
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    border-top: solid 2px black;
+}
+.logo img{
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+.fooot{
+    width: auto;
+    height: 235px;
+   
+    background-color: aqua;
+   
+}
+
+#foot .logo h3{
+    
+    font-size: 20px;
+    margin-left: 30px;
+    text-shadow: 1px 1px  1px black;
+}
+
+
+
+#foot{display: flex;
+  
+    width: 100%;
+    height: 235px;
+    background-color: #f20000;
+    text-align: center;
+    align-items: center;
+  
+
+}
+#foot h2{
+    margin-top: 25px;
+    font-size: 17px;
+}
+#foot a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    
+}
+
+
+
+
+#foot .icons{
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: #f7dcbe;
+ width: 180px;
+ height: 30px;
+display: flex;
+justify-content: space-around;
+text-align: center;
+align-items: center;
+gap: 5px;
+
+
+}
+
+#foot .icons a{
+    font-size: 35px;
+    transition: .1s ease-out;
+    
+    
+}
+
+#foot .icons a:hover{
+    font-size: 38px;
+  
+    
+}
+
+
+
+#foot .icons .fb{
+    color: rgb(68, 68, 167);
+    
+}
+#foot .icons .tw{
+    color: rgb(100, 200, 240);
+    
+}
+#foot .icons .in{
+    position: absolute;
+    color: rgb(150, 81, 224);
+}
+
+
+
+#foot .About{
+width: 33.3%;
+height: 235px;
+background-color: #f7dcbe;
+border-top: solid 2px black;
+}
+
+#foot .About ul{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+font-size: 20px;
+list-style-type: none;
+}
+/*nu merge color*/
+
+ .About a:hover, .Links a:hover{
+
+    background-color: #e3caad;
+       padding: 3px 10px ;
+      
+      color: white;
+  }
+
+
+
+
+#foot .Links{
+
+    width: 33.3%;
+    height: 235px;
+    background-color: #f7dcbe;
+    border-top: solid 2px black;
+    }
+ #foot .Links ul{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 20px;
+        list-style-type: none;
+        
+        }
+
+
+    
+
+    #foot .Contact{
+
+        width: 33.3%;
+        height: 235px;
+        background-color: #f7dcbe;
+        border-top: solid 2px black;
+        }
+
+        #foot .Contact ul{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 17px;
+            list-style-type: none;
+            }
+
+            #foot .Contact h3{
+                font-size: 16px;
+            }
