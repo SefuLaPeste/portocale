@@ -1,0 +1,76 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.big{
+    
+        width: 100%;
+        height: 800px;
+       background-image: url(/jpg/wall3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+
+    
+    
+    
+    }
+
+
+
+.big .blur{
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+   
+}
+
+
+
+
+.big .blur h2{
+   
+  margin-top: 250px;
+  margin-left: 105px;
+    font-size: 90px;
+    color: orange;
+    
+}
+
+.big .blur a{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 5px 50px;
+    background-color: green;
+    text-decoration: none;
+    background: linear-gradient(to left, green 50%, orange 50%) right;
+    background-size: 200% 100%;
+    transition: .5s ease-out;
+    border-radius: 5px;
+}
+
+.big .blur a:hover{
+    background-position: left;
+    
+    
+}
