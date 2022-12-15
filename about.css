@@ -52,7 +52,7 @@ body{
     width: 300px;
     height: 100%;
    
-    background-image: url(/jpg/logo2.png);
+    background-image: url(https://sefulapeste.github.io/portocale/jpg/logo2.png);
     background-repeat: no-repeat;
     background-size: 45px;
     margin-left: 30px;
@@ -109,7 +109,7 @@ body{
    
     width: 1300px;
     height: 700px;
-    background-image: url(/jpg/aboutbig.jpg);
+    background-image: url(https://sefulapeste.github.io/portocale/jpg/aboutbig.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
